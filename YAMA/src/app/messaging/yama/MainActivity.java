@@ -15,7 +15,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-
+	
+	//Send SMS
 	Button btnSendSMS;
 	IntentFilter intentFilter;
 	
