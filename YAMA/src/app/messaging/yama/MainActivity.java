@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
 	Button btnSendSMS;
 	IntentFilter intentFilter;
 	
+	//Receive message 
 	private BroadcastReceiver intentReceiver = new BroadcastReceiver() {
 		
 		@Override
